@@ -27,8 +27,9 @@ function trafficLightAction(color) {
       return result = "Slow down";
     case "red":
       return result = "Stop";
-    case "blue":
-      return result = "Invalid light color";
+    default:
+      return result = "Invalid light";
+    
   }
 }
 // Example Test Cases
