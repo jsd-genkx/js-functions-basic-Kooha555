@@ -14,7 +14,15 @@ Task 02: Check Even or Odd
 */
 
 // 👨‍💻 TODO-01: Write your code below to complete the task as described above.
-
+function checkEvenOrOdd(number){
+  let result = "";
+  if(number % 2 === 0) {
+     return result = "Even";
+  }
+  else{
+    return result="Odd";
+  }
+}
 // Example Test Cases
 console.log(checkEvenOrOdd(4)); // "Even"
 console.log(checkEvenOrOdd(9)); // "Odd"
